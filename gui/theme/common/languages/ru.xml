@@ -5,9 +5,9 @@
 
 	<resources>
 		<!-- Font overrides - only change these if your language requires special characters -->
-		<resource filename="RobotoCondensed-Regular.ttf" name="font_l" scale="90" type="fontoverride"/>
-		<resource filename="RobotoCondensed-Regular.ttf" name="font_m" scale="90" type="fontoverride"/>
-		<resource filename="RobotoCondensed-Regular.ttf" name="font_s" scale="90" type="fontoverride"/>
+		<resource filename="RobotoCondensed-Regular.ttf" name="font_l" scale="100" type="fontoverride"/>
+		<resource filename="RobotoCondensed-Regular.ttf" name="font_m" scale="100" type="fontoverride"/>
+		<resource filename="RobotoCondensed-Regular.ttf" name="font_s" scale="100" type="fontoverride"/>
 		<resource filename="DroidSansMono.ttf" name="fixed" scale="100" type="fontoverride"/>
 		<!-- Partition display names -->
 		<string name="system">System</string>
@@ -37,9 +37,9 @@
 		<string name="sort_by_name">Сорт.по имени</string>
 		<string name="sort_by_date">Сорт.по дате</string>
 		<string name="sort_by_size">Сорт.по размеру</string>
-		<string name="sort_by_name_only">Имя</string>
-		<string name="sort_by_date_only">Дата</string>
-		<string name="sort_by_size_only">Размер</string>
+		<string name="sort_by_name_only">ИМЯ</string>
+		<string name="sort_by_date_only">ДАТА</string>
+		<string name="sort_by_size_only">РАЗМЕР</string>
 		<string name="tab_general">ОСНОВНЫЕ</string>
 		<string name="tab_options">ОПЦИИ</string>
 		<string name="tab_backup">КОПИИ</string>
@@ -49,7 +49,7 @@
 		<string name="tab_language">ЯЗЫК</string>
 		<string name="install_btn">Установка</string>
 		<string name="wipe_btn">Очистка</string>
-		<string name="backup_btn">Резервное коп-ние</string>
+		<string name="backup_btn">Бэкап</string>
 		<string name="restore_btn">Восстановление</string>
 		<string name="mount_btn">Монтирование</string>
 		<string name="settings_btn">Настройки</string>
@@ -278,7 +278,7 @@
 		<string name="rb_system_btn">Система</string>
 		<string name="rb_poweroff_btn">Выключение</string>
 		<string name="rb_recovery_btn">Рекавери</string>
-		<string name="rb_bootloader_btn">Загрузчик</string>
+		<string name="rb_bootloader_btn">Фастбут</string>
 		<string name="rb_download_btn">Режим загрузки</string>
 		<string name="turning_off">Выключение...</string>
 		<string name="swipe_power_off">Свайп для выключения</string>
@@ -671,7 +671,7 @@
 		<string name="cancel_sideload">Отмена ADB Sideload...</string>
 		<string name="change_fs_err">Ошибка при изменении файловой системы.</string>
 		<string name="theme_ver_err">Версия темы не соответствует версии TWRP. Используется тема по умолчанию.</string>
-		<string name="up_a_level">(в родительский каталог)</string>
+		<string name="up_a_level">..</string>
 		<string name="install_reboot" version="2">Устройство будет перезагружено через %tw_sleep% сек.</string>
 		<string name="adbbackup_error">Ошибка резервного копирования по ADB. Выход...</string>
 		<string name="adbbackup_control_error">Невозможно записать в канал управления ADB.</string>
@@ -680,5 +680,66 @@
 		<string name="copy_kernel_log">Kernel Log скопирован в {1}</string>
 		<string name="include_kernel_log">Добавить Kernel Log</string>
 		<string name="unable_set_boot_slot">Ошибка смены слота загрузки bootloader на {1}</string>
+		<string name="log_btn">Лог</string>
+		<!-- Added by Alex6446 -->
+		<string name="stuff_btn">Разное</string>
+		<!-- Reset Lockscreen -->
+		<string name="reset_lockscreen_btn">Сброс паролей</string>
+		<string name="reset_lockscreen_hdr">Сброс блокировки экрана</string>
+		<string name="reset_lockscreen_note1">Если вы не можете разблокировать экран</string>
+		<string name="reset_lockscreen_note2">после восстановления, сделайте следующее.</string>
+		<string name="swipe_to_reset_lockscreen">Свайп для сброса</string>
+		<string name="resetting_lockscreen">Сброс блокировки экрана...</string>
+		<string name="reset_lockscreen_complete">Сброс блокировки экрана завершен!</string>
+		<!-- Unlim Photo strings -->
+		<string name="unlim_photo_btn">Безлим Фото</string>
+		<string name="unlim_photo_hdr">Активировать безлимит на Гугл Фото</string>
+		<string name="unlim_photo_note1">Этот скрипт активирует неограниченное место</string>
+		<string name="unlim_photo_note2">для хранения изображений в Гугл Фото</string>
+		<string name="swipe_to_enable_unlim_photo">Свайп для активации</string>
+		<string name="enabling_unlim_photo">Активация...</string>
+		<string name="enabling_unlim_photo_complete">Активация завершена!</string>
+		<!-- Treblize -->
+		<string name="treblize_btn">Treblize</string>
+		<string name="treblize_hdr">Treblize</string>
+		<string name="create_vendor_hdr">Создать Раздел Vendor</string>
+		<string name="create_vendor_note1">Чтобы получить поддержку Treble</string>
+		<string name="create_vendor_note2">необходимо создать раздел vendor.</string>
+		<string name="create_vendor_note3">Он нужен для установки</string>
+		<string name="create_vendor_note4">Treble прошивок и GSI</string>
+		<string name="swipe_to_create_vendor">Свайп для создания</string>
+		<string name="creating_vendor">Создание нового раздела...</string>
+		<string name="creating_vendor_complete">Vendor успешно создан!</string>
+		<!-- File Manager -->
+		<string name="twrp_file_manager_btn">TWRP</string>
+		<string name="aroma_file_manager_btn">Aroma</string>
+		<!-- Stuff -->
+		<string name="navbar_btn">Навбар</string>
+		<string name="magisk_btn">Magisk</string>
+		<string name="on_btn">Включить</string>
+		<string name="off_btn">Отключить</string>
+		<string name="substratum_btn">Substratum</string>
+		<string name="substratum_hdr">Удалить все наслоения Substratum</string>
+		<string name="substratum_note1">Этот скрипт удаляет</string>
+		<string name="substratum_note2">все наслоения Substratum</string>
+		<string name="uninstall_btn">Удалить</string>
+		<string name="minstall_btn">Установить</string>
+		<!-- Password -->
+		<string name="password_hdr">Вход в TWRP</string>
+		<string name="password_encrypt">Вход в Рекавери защищён паролем</string>
+		<string name="password_notmatch">Неправильный пароль!</string>
+		<string name="password_encrypt_set">Установить пароль для TWRP?</string>
+		<string name="password_btn">Установить пароль</string>
+		<string name="password_set_hdr">Установка пароля</string>
+		<string name="password_enable">Подключить пароль</string>
+		<string name="password_btn_disable">Удалить пароль</string>
+		<!-- VK Music -->
+		<string name="vk_btn">ВК Музыка</string>
+		<string name="vk_hdr">Сброс ВК Музыки</string>
+		<string name="vk_note1">Этот скрипт сбрасывает счётчик прослушивания ВК Музыки</string>
+		<string name="vk_note3">который не позволяет слушать музыку</string>
+		<string name="vk_note4">в фоне в течении долгого времени</string>
+		<string name="vk_note5">Счётчик ВК Музыки успешно сброшен!</string>
+		<string name="run_script_btn">Запустить Скрипт</string>
 	</resources>
 </language>

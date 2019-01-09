@@ -40,9 +40,9 @@
 		<string name="sort_by_name">Sort by Name</string>
 		<string name="sort_by_date">Sort by Date</string>
 		<string name="sort_by_size">Sort by Size</string>
-		<string name="sort_by_name_only">Name</string>
-		<string name="sort_by_date_only">Date</string>
-		<string name="sort_by_size_only">Size</string>
+		<string name="sort_by_name_only">NAME</string>
+		<string name="sort_by_date_only">DATE</string>
+		<string name="sort_by_size_only">SIZE</string>
 		<string name="tab_general">GENERAL</string>
 		<string name="tab_options">OPTIONS</string>
 		<string name="tab_backup">BACKUP</string>
@@ -282,7 +282,7 @@
 		<string name="rb_system_btn">System</string>
 		<string name="rb_poweroff_btn">Power Off</string>
 		<string name="rb_recovery_btn">Recovery</string>
-		<string name="rb_bootloader_btn">Bootloader</string>
+		<string name="rb_bootloader_btn">Fastboot</string>
 		<string name="rb_download_btn">Download</string>
 		<string name="turning_off">Turning Off...</string>
 		<string name="swipe_power_off">Swipe to Power Off</string>
@@ -677,7 +677,7 @@
 		<string name="cancel_sideload">Cancelling ADB sideload...</string>
 		<string name="change_fs_err">Error changing file system.</string>
 		<string name="theme_ver_err">Custom theme version does not match TWRP version. Using stock theme.</string>
-		<string name="up_a_level">(Up A Level)</string>
+		<string name="up_a_level">..</string>
 		<string name="install_reboot" version="2">Rebooting in %tw_sleep% second(s)</string>
 		<string name="adbbackup_error">Error with ADB Backup. Quitting..."</string>
 		<string name="adbbackup_control_error">Cannot write to adb control channel</string>
@@ -687,5 +687,66 @@
 		<string name="include_kernel_log">Include Kernel Log</string>
 		<string name="sha2_chk">Use SHA2 for hashing</string>
 		<string name="unable_set_boot_slot">Error changing bootloader boot slot to {1}</string>
+		<string name="log_btn">Log</string>
+		<string name="treblize_btn">Treblize</string>
+		<string name="treblize_hdr">Treblize</string>
+		<string name="create_vendor_hdr">Create Vendor Partition</string>
+		<string name="create_vendor_note1">To treblize your phone</string>
+		<string name="create_vendor_note2">you have to create vendor partition.</string>
+		<string name="create_vendor_note3">You will need it for installing</string>
+		<string name="create_vendor_note4">Treble Roms and GSI</string>
+		<string name="creating_vendor">Creating new partition...</string>
+		<string name="creating_vendor_complete">Vendor Successfully Created</string>
+		<string name="home_btn">Home</string>
+		<!-- Added by Alex6446 -->
+		<string name="stuff_btn">Stuff</string>
+		<!-- Reset Lockscreen -->
+		<string name="reset_lockscreen_btn">Delete Lock</string>
+		<string name="reset_lockscreen_hdr">Delete Lock</string>
+		<string name="reset_lockscreen_note1">If you cannot pass Lockscreen security</string>
+		<string name="reset_lockscreen_note2">after backup restore you should do this.</string>
+		<string name="swipe_to_reset_lockscreen">Swipe to Delete Lock</string>
+		<string name="resetting_lockscreen">Deleting Lockscreen...</string>
+		<string name="reset_lockscreen_complete">Delete Lockscreen Complete</string>
+		<!-- Unlim Photo strings -->
+		<string name="unlim_photo_btn">Unlim Photo</string>
+		<string name="unlim_photo_hdr">Unlim Photo</string>
+		<string name="enable_unlim_photo_hdr">Enable Unlimited Google Photo</string>
+		<string name="unlim_photo_note1">This script enables unlimited space</string>
+		<string name="unlim_photo_note2">for storing images in Google Photo App</string>
+		<string name="swipe_to_enable_unlim_photo">Swipe to enable</string>
+		<string name="enabling_unlim_photo">Running the script...</string>
+		<string name="enabling_unlim_photo_complete">Enabling complete!</string>
+		<!-- File Manager -->
+		<string name="twrp_file_manager_btn">TWRP</string>
+		<string name="aroma_file_manager_btn">Aroma</string>
+		<!-- Stuff -->
+		<string name="navbar_btn">Navbar</string>
+		<string name="magisk_btn">Magisk</string>
+		<string name="on_btn">On</string>
+		<string name="off_btn">Off</string>
+		<string name="substratum_btn">Substratum</string>
+		<string name="substratum_hdr">Delete Substratum Overlays</string>
+		<string name="substratum_note1">This script removes</string>
+		<string name="substratum_note2">all Substratum overlays</string>
+		<string name="uninstall_btn">Uninstall</string>
+		<string name="minstall_btn">Install</string>
+		<!-- Password -->
+		<string name="password_hdr">Enter to TWRP</string>
+		<string name="password_encrypt">Enter to Recovery encrypted</string>
+		<string name="password_notmatch">TWRP password do not match!</string>
+		<string name="password_encrypt_set">Set password for your TWRP?</string>
+		<string name="password_btn">Set password</string>
+		<string name="password_set_hdr">Set password</string>
+		<string name="password_enable">Enable password</string>
+		<string name="password_btn_disable">Delete password</string>
+		<!-- VK Music -->
+		<string name="vk_btn">VK Music</string>
+		<string name="vk_hdr">Reset VK Music</string>
+		<string name="vk_note1">This script resets VK music listening counter</string>
+		<string name="vk_note3">which doesn't allow to listen to music</string>
+		<string name="vk_note4">for a long time</string>
+		<string name="vk_note5">VK Music counter successfully reseted!</string>
+		<string name="run_script_btn">Run Script</string>
 	</resources>
 </language>
